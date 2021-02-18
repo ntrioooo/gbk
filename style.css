@@ -136,7 +136,7 @@ body{
     background-color: #fd3e3e;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (max-width: 500px){
     .splash .center{
         padding-top: 50px;
         background-size: 260px;
