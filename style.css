@@ -16,7 +16,7 @@ body{
 }
 
 .splash{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 
