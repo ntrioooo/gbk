@@ -136,14 +136,14 @@ body{
     background-color: #fd3e3e;
 }
 
-@media (min-width: 500px){
+@media screen and (min-width: 500px){
     .splash .center{
         padding-top: 50px;
         background-size: 260px;
     }
     .splash .center h1{
         margin: 0 0 30px;
-        font-size: 4em;
+        font-size: 2em;
         -webkit-text-stroke: 2px #fd4c4c;
     }
 
@@ -152,10 +152,12 @@ body{
     }
 
     .pilih{
-        width: auto;
+        width: 500px;
         padding: 10px 50px 15px;
         border-bottom: none;
         border-radius: 50px 50px 0 0;
+        display: flex;
+        position:absolute;
     }
     
     #reset{
